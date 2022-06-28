@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <title>GitHub Finder - Histórico</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-warning navbar-light mb-4">
+        <a href="#" class="navbar-brand">GitHub Finder</a>
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Pesquisa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="historico.html">Histórico</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card card-body">
+            <h1>Histórico usuários GitHub</h1>
+            <p>Listagem de todas as buscas realizadas:</p>
+            <div class="container mt-3">
+                <p>valor:  <span id="field"></span></p>
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Mês</th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <td>January</td>
+                            <td>Doe...</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="profile" class="d-flex justify-content-center mt-4"></div>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+
+</html>
