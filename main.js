@@ -7,9 +7,6 @@ const client_secret = "85b52b03d878896e66ca3657592bce9f42a219d9";
 
 search.addEventListener("click", e => {
     const user = document.getElementById("field").value;
-    //const teste = field.value;
-    //console.log(teste);
-
     if (user.length > 0) {
         getUser(user).then(res => {
             showProfile(res);
